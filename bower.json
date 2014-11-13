@@ -1,9 +1,9 @@
 {
-  "name": "hearty-brunch",
+  "name": "Ember Space",
   "version": "0.0.1",
-  "homepage": "https://github.com/colintoh/hearty-brunch",
+  "homepage": "",
   "authors": [
-    "Colin Toh <colinnus@gmail.com>"
+    "Kira Nguyen"
   ],
   "license": "MIT",
   "private": true,
@@ -19,7 +19,8 @@
     "bootstrap": "~3.3.0",
     "console-polyfill": "~0.1.2",
     "modernizr": "~2.8.3",
-    "font-awesome": "~4.2.0"
+    "font-awesome": "~4.2.0",
+    "ember": "~1.8.1"
   },
   "overrides": {
     "modernizr": {

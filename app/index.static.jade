@@ -1,13 +1,34 @@
 doctype html
 html(lang="en")
   include partials/head
-
   body
     include partials/header
-    #main
-      #brunch-wrapper
-        #pixel-brunch
-        #caption.text-center
-          .hearty-brunch Hearty Brunch
-          .less-hearty-brunch Less Hearty Brunch...
+    .wrapper
+      .left-side
+        section(class='sidebar')
+          a(href="#" , class='btn-search') Search
+          h2(class='nav-title') Discover
+          ul(class='nav-links')
+            li 
+              a(href="#") Features
+            li 
+              a(href='#') Music
+            li 
+              a(href='#') Video
+            li 
+              a(href='#') People 
+            li 
+              a(href='#') Radio
+          button(type='button' , class='btn-signup') Sign up
+          button(type='button' , class='btn-signin') Sign in
+          .footer-global
+            span(class='link')
+              a(href='#') Help 
+            span(class='link')
+              a(href='#') Site Info
+            span(class='link') 
+              a(href='#') Privacy
+            span(class='') 
+              a(href='#') Term
+      .right-side
     include partials/footer

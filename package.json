@@ -1,11 +1,11 @@
 {
-  "name": "hearty-brunch",
+  "name": "Ember Space",
   "description": "Description",
-  "author": "Toan Nguyen Gia",
+  "author": "Thanh Nguyen Kim",
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ToanNG/hearty-brunch"
+    "url": ""
   },
   "scripts": {
     "start": "bower install && npm install",
