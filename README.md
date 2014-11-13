@@ -1,12 +1,8 @@
 # Ember Space
 
-Ember Space build from the origin page [skeleton](https://myspace.com) used the power inspired from Ember.js
+Ember Space build from the [origin page](https://myspace.com) used the power inspired from [Ember.js](https://emberjs.com)
 
 Demo: [...](http://hearty-brunch-demo.s3-website-ap-southeast-1.amazonaws.com/)
-
-## What makes Hearty Brunch hearty?
-
-Version 0.0.1 comes with Stylus, Jade, Twitter Bootstrap, FontAwesome, jQuery, Modernizr and a bunch of helpful mixins!
 
 ## Getting started
 * Install (if you don't have them):
