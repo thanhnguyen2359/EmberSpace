@@ -6,19 +6,32 @@ html(lang="en")
     .wrapper
       .left-side
         section(class='sidebar')
-          a(href="#" , class='btn-search') Search
+          .logo
+          a(href="#" , class='btn-search') 
+            span.icon-search
+            span Search
           h2(class='nav-title') Discover
           ul(class='nav-links')
             li 
-              a(href="#") Features
+              a(href="#")
+                span.icon-flame
+                span Features
             li 
-              a(href='#') Music
+              a(href='#')
+                span.icon-music
+                span Music
             li 
-              a(href='#') Video
+              a(href='#') 
+                span.icon-video
+                span Video
             li 
-              a(href='#') People 
+              a(href='#') 
+                span.icon-people
+                span People 
             li 
-              a(href='#') Radio
+              a(href='#')
+                span.icon-radio
+                span Radio
           button(type='button' , class='btn-signup') Sign up
           button(type='button' , class='btn-signin') Sign in
           .footer-global
@@ -31,6 +44,12 @@ html(lang="en")
             span(class='') 
               a(href='#') Term
       .right-side
+        .header
+          .header-inner
+            h2 Listen to the Music
+            div
+              input.search-input(type='text' , name='search' , placeholder='Enter a name or artist ...')
+            a.btn-upload(href='#') + Updoad Photo
       .tool-bar
         .tool-set
           .play-controls
@@ -42,6 +61,7 @@ html(lang="en")
             a(href='#').icon-vol
             a(href='#').icon-suffer
             a(href='#').icon-repeat
-            a(href='#').icon-radio
+            a(href='#').icon-music-radio
+    include partials/templates
 
 
