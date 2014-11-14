@@ -1,6 +1,7 @@
 @import _fonts
 @import _mixins
 @import _variables
+@import _icons
 
 html, body
   height 100%
@@ -9,6 +10,10 @@ body
   font 300 16px 'Open Sans', sans-serif
   line-height 1.5em
 
+
+/////////////////////
+// LAYOUT
+/////////////////////
 
 .wrapper
   width: 100%
@@ -76,4 +81,45 @@ body
       &::after
         content: "."
         margin:0 2px 0 2px
+        
+
+.tool-bar
+  background: $color-black-light
+  z-index: 1001
+  position: fixed
+  bottom: 0px
+  width: 100%
+  color: $color-white
+  height: 60px
+
+.tool-set
+  border-radius: 5px
+  display: table
+  position: absolute
+  top: 50%
+  left: 5%
+  height: 30px
+  margin-top: -15px
+  width: 90%
+  background: $color-black
+  .icon-play, .icon-previous, .icon-next
+    display: inline-block
+  .play-controls
+    float: left
+    width: 100px
+    a 
+      margin-top: 2.5px
+      margin-left: 2.5px
+  .now-playing
+    margin-top: 2.5px
+    float: left
+    font-size: 0.75em
+  .mode-controls
+    a
+      display: inline-block
+      margin-top: 2.5px
+      margin-left: 2.5px
+    margin-top: 2.5px
+    margin-right: 5px
+    float: right
       
