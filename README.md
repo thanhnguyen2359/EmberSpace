@@ -1,6 +1,6 @@
 # Ember Space
 
-Ember Space build from the [origin page](https://myspace.com) used the power inspired from [Ember.js](https://emberjs.com)
+Ember Space build from the origin [My Space](https://myspace.com) used the power inspired from [Ember.js](https://emberjs.com)
 
 Demo: [...](http://hearty-brunch-demo.s3-website-ap-southeast-1.amazonaws.com/)
 
