@@ -8,9 +8,13 @@ head
 
   //[if lt IE 9]><script src="/javascripts/html5shiv.min.js"></script><script src="/javascripts/respond.min.js"></script><![endif]
   script(type='text/javascript').
+    require 'templates/application'
+    require 'templates/index'
     if (location.hostname === 'localhost') {
+
       window.brunch = window.brunch || {};
       window.brunch['auto-reload'] = {enabled: true};
     }
   script(src='/javascripts/vendor.js')
   script(src='/javascripts/app.js')
+  script(src='/javascritps/template.js')

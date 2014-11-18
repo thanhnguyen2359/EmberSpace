@@ -22,8 +22,13 @@ a
 .wrapper
   width: 100%
   
+.small-wrapper
+  width: 80%
+  margin: auto
+  
 .left-side
-  width: 130px
+  min-width: 130px
+  width: 10%
   height: 100%
   min-height: 700px
   background: $color-black
@@ -33,8 +38,8 @@ a
   left: 0px
   
 .right-side
-  width: 91%
-  margin-left: 130px
+  width: 90%
+  margin-left: 10%
   background: $color-white
 
 .sidebar
@@ -140,6 +145,17 @@ a
   width: 100%
   height: 40px
   
+.lightbox-cover
+  width: 100%
+  height: 100%
+  position: absolute
+  bottom : 60px
+  background: $color-grey
+  z-index: 1002
+  opacity: 0.99
+  
+
+  
 /////////////////////
 //  PAGEs
 /////////////////////
@@ -174,4 +190,30 @@ a
   padding: 10px
   margin-top: -50px
   margin-right: 20px
-
+  
+.content
+  .module
+    padding-top: 40px
+    padding-left: 40px
+  .filter-tags
+    border-bottom: 1px solid $color-grey
+    display: block
+    margin-bottom: 20px
+    li 
+      height: 40px
+    a
+      display:inline-block
+      height: 100%
+    a:hover
+      text-decoration: none
+    .active
+      border-bottom: 1px solid $color-blue-sky
+  .genres-drpdown
+    height: 40px
+    width: 200px
+    display: inline-block
+    border: 1px solid $color-grey
+    color : $color-grey-dark
+    background : $color-white
+    // background-image : url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAYAAAD+Bd/7AAAAU0lEQVR42jXMUQnAMAxF0Zjo19xUwEzUxKREy6AOJqBWBoX0BW4+DoSbEHP3Jq9cYol5SjOGkJUBizbzoMtP+BC0Xi9v2RLYNMtlGRIYNA4ED6wcTfpq/NY0RmUAAAAASUVORK5CYII=")
+    // background-repeat: no-repeat

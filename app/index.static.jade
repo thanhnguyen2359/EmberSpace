@@ -3,65 +3,61 @@ html(lang="en")
   include partials/head
   body
     include partials/header
-    .wrapper
-      .left-side
-        section(class='sidebar')
-          .logo
-          a(href="#" , class='btn-search') 
-            span.icon-search
-            span Search
-          h2(class='nav-title') Discover
-          ul(class='nav-links')
-            li 
-              a(href="#")
-                span.icon-flame
-                span Features
-            li 
-              a(href='#')
-                span.icon-music
-                span Music
-            li 
-              a(href='#') 
-                span.icon-video
-                span Video
-            li 
-              a(href='#') 
-                span.icon-people
-                span People 
-            li 
-              a(href='#')
-                span.icon-radio
-                span Radio
-          button(type='button' , class='btn-signup') Sign up
-          button(type='button' , class='btn-signin') Sign in
-          .footer-global
-            span(class='link')
-              a(href='#') Help 
-            span(class='link')
-              a(href='#') Site Info
-            span(class='link') 
-              a(href='#') Privacy
-            span(class='') 
-              a(href='#') Term
-      .right-side
-        .header
-          .header-inner
-            h2 Listen to the Music
-            div
-              input.search-input(type='text' , name='search' , placeholder='Enter a name or artist ...')
-            a.btn-upload(href='#') + Updoad Photo
-      .tool-bar
-        .tool-set
-          .play-controls
-            a(href='#').icon-previous
-            a(href='#').icon-play
-            a(href='#').icon-next
-          .now-playing Welcome to myspace . Just start typing to find music
-          .mode-controls
-            a(href='#').icon-vol
-            a(href='#').icon-suffer
-            a(href='#').icon-repeat
-            a(href='#').icon-music-radio
-    include partials/templates
+    //- script(type='text/x-handlebars')
+    //-   .wrapper
+    //-     .left-side
+    //-       section(class='sidebar')
+    //-         .logo
+    //-         a(href="#" , class='btn-search') 
+    //-           span.icon-search
+    //-           span Search
+    //-         h2(class='nav-title') Discover
+    //-         ul(class='nav-links')
+    //-           li 
+    //-             a(href="#")
+    //-               span.icon-flame
+    //-               span Features
+    //-           li 
+    //-             a(href='#')
+    //-               span.icon-music
+    //-               span Music
+    //-           li 
+    //-             a(href='#') 
+    //-               span.icon-video
+    //-               span Video
+    //-           li 
+    //-             a(href='#') 
+    //-               span.icon-people
+    //-               span People 
+    //-           li 
+    //-             a(href='#')
+    //-               span.icon-radio
+    //-               span Radio
+    //-         button(type='button' , class='btn-signup') Sign up 
+    //-         button(type='button' , class='btn-signin') Sign in
+    //-         .footer-global
+    //-           span(class='link')
+    //-             a(href='#') Help 
+    //-           span(class='link')
+    //-             a(href='#') Site Info
+    //-           span(class='link') 
+    //-             a(href='#') Privacy
+    //-           span(class='') 
+    //-             a(href='#') Term
+    //-     .right-side
+    //-       {{outlet}}
+    //-     .tool-bar
+    //-       .tool-set
+    //-         .play-controls
+    //-           a(href='#').icon-previous
+    //-           a(href='#').icon-play
+    //-           a(href='#').icon-next
+    //-         .now-playing Welcome to myspace . Just start typing to find music
+    //-         .mode-controls
+    //-           a(href='#').icon-vol
+    //-           a(href='#').icon-suffer
+    //-           a(href='#').icon-repeat
+    //-           a(href='#').icon-music-radio
+    //- include partials/templates
 
 

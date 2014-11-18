@@ -1,3 +1,43 @@
 
-script(type='text/x-handlebar')
+script(type='text/x-handlebars' , id='signin')
+  .lightbox-cover
+    .small-wrapper
+          
+script(type='text/x-handlebars' , id='signup')
+  .lightbox-cover
+script(type='text/x-handlebars' , id='music')
+  .header
+    .header-inner
+      h2 Listen to the Music
+      div
+        input.search-input(type='text' , name='search' , placeholder='Enter a name or artist ...')
+      a.btn-upload(href='#') + Updoad Photo
+  .content
+    section.module
+      ul.list-inline.filter-tags
+        li 
+          a.active(href='#') Songs
+        li
+          a(href='#') Albums
+        li
+          a(href='#') Artist
+        li
+          a(href='#') Mixes
+      select.genres-drpdown
+        option Reggase
+        option Jazz
+        option Opera
+        option Rock & roll  
+      a.song-item(href="#") 
+        img(href='/images/102014-neyo-600x300.jpg' , class='img-rounded')
+        h2 Rude
+        p Magic
+      a.song-item(href='#')
+        img(href='/images/102014-neyo-600x300.jpg' , class='img-rounded')
+        h2 Rude
+        p Magic
+      a.song-item(href='#')
+        img(href='/images/102014-neyo-600x300.jpg' , class='img-rounded')
+        h2 Rude
+        p Magic
   

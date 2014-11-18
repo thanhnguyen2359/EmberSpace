@@ -16,16 +16,25 @@ exports.config =
         before: [
           'app/styles/main.styl'
         ]
-
     templates:
-      joinTo: 'javascripts/template.js': /^app/
+      precompile: true
+      root: 'templates'
+      defaultExtension: 'emblem'
+      joinTo:  'javascripts/template.js': /^app/
+      paths:
+        # If you don't specify jquery and ember there,
+        # raw (non-Emberized) Handlebars templates will be compiled.
+        jquery: 'bower_components/jquery/dist/jquery.js'
+        ember: 'bower_components/ember/ember.js'
+        handlebars: 'bower_components/handlebars/handlebars.js'
+        emblem: 'bower_components/emblem/dist/emblem.js'
 
   modules:
-    wrapper: false
-    definition: false
+    wrapper: 'amd'
+    definition: 'amd'
 
-  plugins:
-    jade:
-      pretty: yes
-    static_jade:
-      extension: ".static.jade"
+  # plugins:
+  #   jade:
+  #     pretty: yes
+  #   static_jade:
+  #     extension: ".static.jade"
