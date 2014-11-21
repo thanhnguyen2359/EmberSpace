@@ -25,7 +25,10 @@
   },
   "overrides": {
     "modernizr": {
-      "main": "ember.js"
+      "main": "modernizr.js"
+    },
+    "emblem":{
+      "main" : "emblem.js"
     }
   }
 }
