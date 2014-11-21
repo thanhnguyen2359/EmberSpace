@@ -1,0 +1,57 @@
+.wrapper
+  .left-side
+    section class='sidebar'
+      .logo
+      a href="#"  class='btn-search'
+        span.icon-search
+        span Search
+      h2 class='nav-title' Discover
+      ul class='nav-links'
+        li 
+          link-to 'featured'
+            span.icon-flame
+            span Features
+        li 
+          link-to 'music'
+            span.icon-music
+            span Music
+        li 
+          link-to 'video'
+            span.icon-video
+            span Video
+        li 
+          link-to 'people'
+            span.icon-people
+            span People 
+        li 
+          link-to 'radio'
+            span.icon-radio
+            span Radio
+      link-to 'signup'
+        button class='btn-signup' Sign up
+      link-to 'signin' 
+        button class='btn-signin' Sign in
+      .footer-global
+        span class='link'
+          a href='#' Help 
+        span class='link'
+          a href='#' Site Info
+        span class='link'
+          a href='#' Privacy
+        span class='' 
+          a href='#' Term
+  .right-side
+    == outlet
+  .tool-bar
+    .tool-set
+      .play-controls
+        a.icon-previous href='#' 
+        a.icon-play href='#'
+        a.icon-next href='#'
+      .now-playing Welcome to myspace . Just start typing to find music
+      .mode-controls
+        a.icon-vol href='#'
+        a.icon-suffer href='#'
+        a.icon-repeat href='#'
+        a.icon-music-radio href='#'
+
