@@ -22,7 +22,8 @@
     "stylus-brunch": "~1.8.1",
     "uglify-js-brunch": ">= 1.0 < 1.8",
     "statik": ">= 1.1.0", 
-    "brunch": "1.x"
+    "brunch": "1.x",
+    "bower" : "lastest"
   },
   "devDependencies": {
     "jade-brunch": "~1.8.1"
