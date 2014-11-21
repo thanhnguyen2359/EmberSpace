@@ -9,7 +9,7 @@
     "url": ""
   },
   "scripts": {
-    "start": "bower install && npm install",
+    "start": "npm install && bower install",
     "test": "brunch test",
     "postinstall": "brunch build --optimize"
   },
