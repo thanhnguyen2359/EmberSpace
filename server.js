@@ -26,7 +26,7 @@ if(cluster.isMaster){
     console.log("Server started on port " + port);
   }
 
-  if( process.env.PORT ){
-    exports.startServer(process.env.PORT);
+  if(port){
+    exports.startServer(port);
   }
 }
