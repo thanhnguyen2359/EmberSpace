@@ -25,7 +25,7 @@
   },
   "overrides": {
     "modernizr": {
-      "main": "modernizr.js"
+      "main": "ember.js"
     }
   }
 }

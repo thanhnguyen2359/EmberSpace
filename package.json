@@ -2,6 +2,7 @@
   "name": "EmberSpace",
   "description": "Description",
   "author": "Thanh Nguyen Kim",
+  "main": "server.js",
   "version": "0.0.1",
   "repository": {
     "type": "git",
@@ -9,7 +10,8 @@
   },
   "scripts": {
     "start": "bower install && npm install",
-    "test": "brunch test"
+    "test": "brunch test",
+    "postinstall": "brunch build --optimize"
   },
   "dependencies": {
     "auto-reload-brunch": ">= 1.0 < 1.8",
@@ -18,7 +20,9 @@
     "emblem-brunch": "^0.1.1",
     "javascript-brunch": ">= 1.0 < 1.8",
     "stylus-brunch": "~1.8.1",
-    "uglify-js-brunch": ">= 1.0 < 1.8"
+    "uglify-js-brunch": ">= 1.0 < 1.8",
+    "statik": ">= 1.1.0", 
+    "brunch": "1.x"
   },
   "devDependencies": {
     "jade-brunch": "~1.8.1"
