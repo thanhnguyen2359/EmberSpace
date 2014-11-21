@@ -1,4 +1,2 @@
-<script type='text/x-emblem' id='signin'>
-  .lightbox-cover
-    .small-wrapper
-</script>
+.lightbox-cover
+  .small-wrapper

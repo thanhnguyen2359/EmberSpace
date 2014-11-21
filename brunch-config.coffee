@@ -29,9 +29,9 @@ exports.config =
         handlebars: 'bower_components/handlebars/handlebars.js'
         emblem: 'bower_components/emblem/dist/emblem.js'
 
-  modules:
-    wrapper: 'amd'
-    definition: 'amd'
+  # modules:
+  #   wrapper: 'amd'
+  #   definition: 'amd'
 
   # plugins:
   #   jade:
