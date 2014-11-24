@@ -1,1 +1,15 @@
 .lightbox-cover
+  .login-wrap
+    .login-content
+      h1 Join Ember Space
+      p Getting in is easy. Use one of your social networks or start fresh with an email address.
+      p 
+        span Already have an account ? 
+        =link-to 'signin' | Sign in
+      .facebook-massive
+        .icon-facebook-large
+      .twitter-massive
+        .icon-twitter-large
+      .email-massive
+        .icon-email-large
+  a.btn-close.icon-close href='#' click="back"

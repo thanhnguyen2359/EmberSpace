@@ -1,2 +1,4 @@
 .lightbox-cover
-  .small-wrapper
+  .login-wrap
+    .login-content
+  a.btn-close.icon-close href='#'
