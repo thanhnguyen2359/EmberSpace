@@ -1,6 +1,6 @@
 .lightbox-cover
   .login-wrap
-    .login-content
+    .login-content.text-center
       h1 Join Ember Space
       p Getting in is easy. Use one of your social networks or start fresh with an email address.
       p 
