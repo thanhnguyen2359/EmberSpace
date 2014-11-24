@@ -41,7 +41,8 @@
         span class='' 
           a href='#' Term
   .right-side
-    == outlet
+    == outlet 
+  == outlet global
   .tool-bar
     .tool-set
       .play-controls
