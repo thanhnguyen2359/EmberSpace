@@ -1,22 +1,19 @@
-// 'use strict';
+'use strict';
 
-// ;(function(App,undefined) {
-//   console.log('Hello Ember light!');
-//   App.Router.map(function(){
-//     this.resource('featured');
-//     this.resource('music');
-//     this.resource('video');
-//     this.resource('people');
-//     this.resource('radio');
-//     this.resource('signup');
-//     this.resource('signin');
-//   });
+window.fbAsyncInit = function() {
+  FB.init({
+    appId      : '135177736657394',
+    xfbml      : true,
+    version    : 'v2.1'
+  });
+};
 
-
-  
-// })(window.App = window.App || Ember.Application.create() || {});
-// Application bootstrapper
-// require('templates/application');
-// require('templates/index');
+(function(d, s, id){
+   var js, fjs = d.getElementsByTagName(s)[0];
+   if (d.getElementById(id)) {return;}
+   js = d.createElement(s); js.id = id;
+   js.src = "//connect.facebook.net/en_US/sdk.js";
+   fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
 
 module.exports = Em.Application.create();

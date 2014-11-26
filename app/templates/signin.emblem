@@ -6,9 +6,9 @@
         span Use Facebook, Twitter or your email to sign in. Don't have a Myspace account yet? No worries, 
         =link-to 'signup' | joining  
         span is easy.
-      .facebook-massive
+      a.facebook-massive href='#' click='facebooklogin'
         .icon-facebook-large
-      .twitter-massive
+      a.twitter-massive href='#'
         .icon-twitter-large
       .login-massive
         form role='form'
