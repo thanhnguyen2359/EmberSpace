@@ -1,4 +1,24 @@
 .lightbox-cover
   .login-wrap
     .login-content
-  a.btn-close.icon-close href='#'
+      h1 Sign in to Ember space
+      p 
+        span Use Facebook, Twitter or your email to sign in. Don't have a Myspace account yet? No worries, 
+        =link-to 'signup' | joining  
+        span is easy.
+      a.facebook-massive href='#' click='facebooklogin'
+        .icon-facebook-large
+      a.twitter-massive href='#'
+        .icon-twitter-large
+      .login-massive
+        form role='form'
+          .form-group
+            label EMAIL OR USERNAME
+            input type='email' class='form-control' placeholder='Enter Email'
+          .form-group
+            label Password
+            input type='password' class='form-control' placeholder='Password'
+          .form-group
+            a.lnk-forgotpassword href='#' Forgot password
+            button.btn-blue.btn Sign in
+  a.btn-close.icon-close href='#' click="back"
